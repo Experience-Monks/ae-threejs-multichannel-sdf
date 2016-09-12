@@ -1,0 +1,5 @@
+ae-plugin/Derived
+ae-plugin/Intermediates
+ae-plugin/Products
+ae-plugin/Mac/MCSDF.xcodeproj/project.xcworkspace/xcuserdata/**/*
+ae-plugin/Mac/MCSDF.xcodeproj/xcuserdata/**/*

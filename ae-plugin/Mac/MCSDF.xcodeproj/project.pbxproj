@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ECB51A715DB18A300C5BAD5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECB51A615DB18A300C5BAD5 /* Cocoa.framework */; };
+		8F463EB80C3DCDBB0040C945 /* GL_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F463EB60C3DCDBB0040C945 /* GL_base.cpp */; };
+		8F463EC30C3DCE390040C945 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F463EC20C3DCE390040C945 /* OpenGL.framework */; };
+		8F463EC90C3DCE4B0040C945 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F463EC80C3DCE4B0040C945 /* AGL.framework */; };
+		F15389321D86F5D000DD032E /* MCSDFPiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = F153892D1D86F5D000DD032E /* MCSDFPiPL.r */; };
+		F15389331D86F5D000DD032E /* MCSDF_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F153892E1D86F5D000DD032E /* MCSDF_Strings.cpp */; };
+		F15389341D86F5D000DD032E /* MCSDF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F153892F1D86F5D000DD032E /* MCSDF.cpp */; };
+		F17E0E491D86FF160050B73F /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F17E0E471D86FF160050B73F /* AEGP_SuiteHandler.cpp */; };
+		F17E0E4A1D86FF160050B73F /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F17E0E481D86FF160050B73F /* MissingSuiteError.cpp */; };
+		F17E0E4D1D8711B20050B73F /* MCSDF.frag in Resources */ = {isa = PBXBuildFile; fileRef = F17E0E4B1D8711B20050B73F /* MCSDF.frag */; };
+		F17E0E4E1D8711B20050B73F /* MCSDF.vert in Resources */ = {isa = PBXBuildFile; fileRef = F17E0E4C1D8711B20050B73F /* MCSDF.vert */; };
+		F17E0E4F1D8712670050B73F /* MCSDF.frag in CopyFiles */ = {isa = PBXBuildFile; fileRef = F17E0E4B1D8711B20050B73F /* MCSDF.frag */; };
+		F17E0E501D8712670050B73F /* MCSDF.vert in CopyFiles */ = {isa = PBXBuildFile; fileRef = F17E0E4C1D8711B20050B73F /* MCSDF.vert */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F1EE4810C51773600D27114 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F17E0E4F1D8712670050B73F /* MCSDF.frag in CopyFiles */,
+				F17E0E501D8712670050B73F /* MCSDF.vert in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EB428DB0FBA1C77003C7DD1 /* GL_base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GL_base.h; path = ../GL_base.h; sourceTree = SOURCE_ROOT; };
+		7ECB51A615DB18A300C5BAD5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8F463EB60C3DCDBB0040C945 /* GL_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = GL_base.cpp; path = ../GL_base.cpp; sourceTree = SOURCE_ROOT; };
+		8F463EC20C3DCE390040C945 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8F463EC80C3DCE4B0040C945 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		F153892D1D86F5D000DD032E /* MCSDFPiPL.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = MCSDFPiPL.r; path = ../MCSDFPiPL.r; sourceTree = "<group>"; };
+		F153892E1D86F5D000DD032E /* MCSDF_Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MCSDF_Strings.cpp; path = ../MCSDF_Strings.cpp; sourceTree = "<group>"; };
+		F153892F1D86F5D000DD032E /* MCSDF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MCSDF.cpp; path = ../MCSDF.cpp; sourceTree = "<group>"; };
+		F15389301D86F5D000DD032E /* MCSDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCSDF.h; path = ../MCSDF.h; sourceTree = "<group>"; };
+		F15389311D86F5D000DD032E /* MCSDF_Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCSDF_Strings.h; path = ../MCSDF_Strings.h; sourceTree = "<group>"; };
+		F17E0E3E1D86FB570050B73F /* MCSDF.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCSDF.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17E0E471D86FF160050B73F /* AEGP_SuiteHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_SuiteHandler.cpp; path = ../AEGP_SuiteHandler.cpp; sourceTree = "<group>"; };
+		F17E0E481D86FF160050B73F /* MissingSuiteError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MissingSuiteError.cpp; path = ../MissingSuiteError.cpp; sourceTree = "<group>"; };
+		F17E0E4B1D8711B20050B73F /* MCSDF.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = MCSDF.frag; path = ../GLSL_files/MCSDF.frag; sourceTree = SOURCE_ROOT; };
+		F17E0E4C1D8711B20050B73F /* MCSDF.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = MCSDF.vert; path = ../GLSL_files/MCSDF.vert; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E618CA095A3CE80012CA3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F463EC30C3DCE390040C945 /* OpenGL.framework in Frameworks */,
+				8F463EC90C3DCE4B0040C945 /* AGL.framework in Frameworks */,
+				7ECB51A715DB18A300C5BAD5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F463FB20C4801D30040C945 /* GLSL files */ = {
+			isa = PBXGroup;
+			children = (
+				F17E0E4B1D8711B20050B73F /* MCSDF.frag */,
+				F17E0E4C1D8711B20050B73F /* MCSDF.vert */,
+			);
+			name = "GLSL files";
+			sourceTree = "<group>";
+		};
+		C4E6187C095A3C800012CA3F = {
+			isa = PBXGroup;
+			children = (
+				F17E0E471D86FF160050B73F /* AEGP_SuiteHandler.cpp */,
+				F17E0E481D86FF160050B73F /* MissingSuiteError.cpp */,
+				F153892D1D86F5D000DD032E /* MCSDFPiPL.r */,
+				F153892E1D86F5D000DD032E /* MCSDF_Strings.cpp */,
+				F153892F1D86F5D000DD032E /* MCSDF.cpp */,
+				F15389301D86F5D000DD032E /* MCSDF.h */,
+				F15389311D86F5D000DD032E /* MCSDF_Strings.h */,
+				8F463EB60C3DCDBB0040C945 /* GL_base.cpp */,
+				7EB428DB0FBA1C77003C7DD1 /* GL_base.h */,
+				8F463FB20C4801D30040C945 /* GLSL files */,
+				8F463EC80C3DCE4B0040C945 /* AGL.framework */,
+				7ECB51A615DB18A300C5BAD5 /* Cocoa.framework */,
+				8F463EC20C3DCE390040C945 /* OpenGL.framework */,
+				F17E0E3E1D86FB570050B73F /* MCSDF.plugin */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E618CB095A3CE80012CA3F /* MCSDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "MCSDF" */;
+			buildPhases = (
+				C4E618C8095A3CE80012CA3F /* Resources */,
+				C4E618C9095A3CE80012CA3F /* Sources */,
+				C4E618CA095A3CE80012CA3F /* Frameworks */,
+				C4E618EA095A3E040012CA3F /* Rez */,
+				8F1EE4810C51773600D27114 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSDF;
+			productName = Skeleton.plugin;
+			productReference = F17E0E3E1D86FB570050B73F /* MCSDF.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E6187E095A3C800012CA3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "MCSDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = C4E6187C095A3C800012CA3F;
+			productRefGroup = C4E6187C095A3C800012CA3F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E618CB095A3CE80012CA3F /* MCSDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E618C8095A3CE80012CA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17E0E4E1D8711B20050B73F /* MCSDF.vert in Resources */,
+				F17E0E4D1D8711B20050B73F /* MCSDF.frag in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		C4E618EA095A3E040012CA3F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15389321D86F5D000DD032E /* MCSDFPiPL.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E618C9095A3CE80012CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17E0E4A1D86FF160050B73F /* MissingSuiteError.cpp in Sources */,
+				F15389331D86F5D000DD032E /* MCSDF_Strings.cpp in Sources */,
+				F15389341D86F5D000DD032E /* MCSDF.cpp in Sources */,
+				F17E0E491D86FF160050B73F /* AEGP_SuiteHandler.cpp in Sources */,
+				8F463EB80C3DCDBB0040C945 /* GL_base.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E61880095A3C800012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "/Applications/Adobe After Effects CC 2015.3/Plug-ins/Effects";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_REUSE_STRINGS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../Headers,
+					../../../Util,
+					../../../Headers/SP,
+					../../../Resources,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				REZ_PREPROCESSOR_DEFINITIONS = __MACH__;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		C4E618CF095A3CE90012CA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "";
+				GCC_MODEL_TUNING = "";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					../Headers,
+					../Util,
+					../Headers/SP,
+					../Resources,
+				);
+				INFOPLIST_FILE = "MCSDF.plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jam3.AfterEffects.MCSDF;
+				PRODUCT_NAME = MCSDF;
+				SDKROOT = macosx;
+				ZERO_LINK = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E6187F095A3C800012CA3F /* Build configuration list for PBXProject "MCSDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E61880095A3C800012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		C4E618CE095A3CE90012CA3F /* Build configuration list for PBXNativeTarget "MCSDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E618CF095A3CE90012CA3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E6187E095A3C800012CA3F /* Project object */;
+}
